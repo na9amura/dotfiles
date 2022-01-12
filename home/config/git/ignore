@@ -28,8 +28,8 @@ Temporary Items
 .idea
 .vscode
 .history/
-.imi
+.idea/
 railways.cache
-
+*.iml
 .envrc
 
