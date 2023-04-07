@@ -111,9 +111,6 @@ alias killselect="ps aux | peco | awk '{ print $2 }' | xargs kill"
 # Development
 #
 
-## direnv
-eval "$(direnv hook zsh)"
-
 # ihaskell
 export PATH="$HOME/.local/bin:$PATH"
 
