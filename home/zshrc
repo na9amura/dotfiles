@@ -119,8 +119,9 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 ## node.js
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+### volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
 ## go
 export GOPATH=~/go
