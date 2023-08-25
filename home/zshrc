@@ -85,6 +85,9 @@ alias vim=nvim
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
+## ssh-agent
+eval `ssh-agent` > /dev/null 2>&1
+
 ## git
 alias gitmg="git branch | peco | xargs git merge"
 alias gitrb="git branch | peco | xargs git rebase"
