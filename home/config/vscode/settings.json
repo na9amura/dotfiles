@@ -1,0 +1,122 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "files.trimTrailingWhitespace": true,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "local-history.path": "/Users/ta.nakamura/.vscode/",
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.searchHighlightColor": "rgba(255, 255, 4, 0.5)",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/bower_components": true,
+        "**/CVS": true,
+        "**/tmp": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/vendor/**": true,
+        "assets/**": true,
+        "backup/**": true,
+        "bin/**": true,
+        "cache/**": true,
+        "images/**": true,
+        "logs/**": true,
+        "system/**": true,
+        "tmp/**": true,
+        "webserver-configs/**": true
+    },
+    "editor.minimap.enabled": false,
+    "eslint.autoFixOnSave": true,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "liveshare.featureSet": "insiders",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderControlCharacters": true,
+    "importSorter.generalConfiguration.sortOnBeforeSave": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "vsnotes.defaultNotePath": "/Users/ta.nakamura/Documents/vsnotes",
+    "search.searchOnType": false,
+    "importSorter.importStringConfiguration.hasSemicolon": false,
+    "ruby.intellisense": "rubyLocate",
+    "ruby.format": "rubocop",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "datasources",
+        "glpk",
+        "typeclass",
+        "wasm"
+    ],
+    "diffEditor.renderSideBySide": true,
+    "telemetry.enableTelemetry": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.pythonPath": "/usr/local/bin/python3",
+    "liveshare.authenticationProvider": "GitHub",
+    "cSpell.enableFiletypes": [
+        "csv (caret)"
+    ],
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.buildFlags": [
+        "-buildvcs=false"
+    ],
+    "files.associations": {
+        "*.md\n": "markdown"
+    },
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.autoSave": "onFocusChange",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "biome.suggestInstallingGlobally": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "git.blame.editorDecoration.enabled": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://biomejs.dev": true
+    },
+}
