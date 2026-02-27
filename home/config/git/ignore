@@ -33,3 +33,5 @@ railways.cache
 *.iml
 .envrc
 
+
+**/.claude/settings.local.json
