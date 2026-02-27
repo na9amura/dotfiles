@@ -1,3 +1,7 @@
+#
+# homebrew
+#
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 #
 # zplug
@@ -118,8 +122,8 @@ alias killselect="ps aux | peco | awk '{ print $2 }' | xargs kill"
 export PATH="$HOME/.local/bin:$PATH"
 
 ## rbenv
-eval "$(rbenv init -)"
-export PATH="/usr/local/opt/libxml2/bin:$PATH"
+# eval "$(rbenv init -)"
+# export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 ## node.js
 ### volta
